@@ -85,7 +85,8 @@ router.get('/articles/:id', function(req, res) {
 
 // Route to delete notes
 router.delete('/deletenote/:id', function(req, res) {
-	console.log(req.params.id);
+	console.log("id is " + req.params.id);
+	console.log(req.params);
 	Note.remove({ '_id': req.params.id })
 	// .remove('note')
 	.exec(function(err, doc) {

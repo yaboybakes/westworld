@@ -14,9 +14,8 @@
   float: right;
   width: 30%;
 }
-#commentbox {
-  float: right;
-  width: 30%;
+#results {
+  width: 400px;
   height: 200px;
   overflow: auto;
   margin-left: auto;
@@ -33,4 +32,14 @@ input {
 textarea {
   height: 200px;
   font-size: 18px;
+}
+.deleter {
+  margin-left: 20px;
+  color: red;
+  cursor: pointer;
+  text-align: right;
+}
+.dataTitle {
+  cursor: pointer;
+  font-size: 24px;
 }
